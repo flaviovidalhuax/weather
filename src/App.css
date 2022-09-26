@@ -22,7 +22,7 @@ background-position-x:center ;
   background-color: #fff9ff;
   padding: 10px;
   color: rgb(119, 189, 250);
-  box-shadow: 0 0  10px rgba(199, 44, 199, 0.9);
+  box-shadow: 1px 1px  15px rgba(44, 132, 199, 0.9);
  
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -58,10 +58,12 @@ background-position-x:center ;
   gap: 7px;
 }
 .second_item{
-  color: blue;
+  color:black;
 }
 .second_span{
-  color: aqua;
+  color: rgb(34, 78, 78);
+  font-size:medium;
+  font-weight: 900;
 }
 .card_temperature{ 
  
@@ -76,11 +78,15 @@ background-position-x:center ;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  background-color: burlywood;
+  background-color: rgb(170, 167, 163);
   border: none;
   color: rgb(61, 77, 91);
   font-size: 22px;
   font-weight: 700;
   border-radius: 1rem;
 
+}
+.card_btn:hover{
+
+  background-color:rgb(119, 189, 250);
 }
